@@ -1,0 +1,21 @@
+{
+    "name": "3f/health-app",
+    "description": "Health App",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fernando Fraga",
+            "email": "fernando@equipe3f.com",
+            "homepage": "https://equipe3f.com/fernando",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "App\\": "assets/php/"
+        },
+        "files": [
+            "assets/php/Support/Config.php"
+        ]
+    }
+}

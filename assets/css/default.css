@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body, html{
+    min-height: 100vh;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#main, #main > .row{
+    min-height: 100vh;
+}
+
+.aligner{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendary{
+    font-family: 'Space Mono', monospace;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.calendary-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendary button{
+    background-color: transparent;
+    border: none;
+    font-size: 2.1rem;
+    padding: 20px;
+    color: #fff;
+}
+
+.controllers{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.controllers button{
+    width: 20%;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.4rem;
+    transition: all .3s ease;
+}
+
+.checked{
+    color: rgb(105, 251, 125) !important;
+    border-color: rgb(105, 251, 125) !important;
+    transition: all .3s ease;
+}

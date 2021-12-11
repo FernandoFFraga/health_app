@@ -1,0 +1,7 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %[REQUEST_FILENAME] !-f
+RewriteCond %[REQUEST_FILENAME] !-d
+
+RewriteRule ^(\d{4}-\d{2}-\d{2})\/([a-zA-Z]+)$ index.php?d=$1&action=$2 [NC]
